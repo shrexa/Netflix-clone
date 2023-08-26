@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #050f22;
+    background:  #010713;
   }
   body {
     width: 100%;
-    background: #050f22;
+    background: #010713;
     position: relative;
     font-family: roboto, sans-serif;
   }
@@ -201,8 +201,9 @@
   
   .card {
     position: relative;
-    min-width: 150px;
-    width: 150px;
+    min-width: 320px;
+    width: 320px;
+    /* add to watchlist disappeared */
     height: 200px;
     border-radius: 5px;
     overflow: hidden;
