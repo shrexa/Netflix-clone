@@ -1,6 +1,6 @@
 let movies = [
     {
-      name: "falcon and the winter soldier",
+      name: "Mrs. Serial Killer ",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
       image: "images/mrsSerialkiller.jpg"
