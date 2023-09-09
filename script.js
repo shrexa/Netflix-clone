@@ -3,31 +3,31 @@ let movies = [
       name: "falcon and the winter soldier",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/slider 1.PNG"
+      image: "images/mrsSerialkiller.jpg"
     },
     {
-      name: "loki",
+      name: "Guns ans Gulaab",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/slider 2.PNG"
+      image: "images/Guns-and-Gulaabs.jpg"
     },
     {
-      name: "wanda vision",
+      name: "Shehzada ",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/slider 3.PNG"
+      image: "images/shehzada.jpg"
     },
     {
-      name: "raya and the last dragon",
+      name: "Tu Jhoothi Mein Makkar",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/slider 4.PNG"
+      image: "images/tujhooti.jpg"
     },
     {
       name: "luca",
       des:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/slider 5.PNG"
+      image: "images/theguilty.jpg"
     }
   ];
   const carousel = document.querySelector(".carousel");
