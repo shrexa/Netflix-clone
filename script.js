@@ -1,31 +1,42 @@
 let movies = [
+    {
+    name: "Guns ans Gulaab",
+    des:
+      "Guns & Gulaabs 2023 | Maturity Rating:U/A 16+ | 1 Season | Comedies ",
+      des2:
+      " In the cartel-run town of Gulaabgunj, an unprecedented opium deal pulls a big-city cop and a lovesick mechanic into its chaotic clutches.Starring:Rajkummar Rao,Dulquer Salmaan,Adarsh Gourav Creators:Raj Nidimoru,Krishna D.K.",
+    image: "images/Guns-and-Gulaabs.jpg"
+  },
   {
     name: "Mrs. Serial Killer ",
     des:
-      "Mrs. Serial Killer 2020 | Maturity Rating: U/A 16+ | 1h 47m | Thrillers When a doctor gets jailed for a string of shocking murders, his loyal wife sets out to commit a copycat crime to prove his innocence. Starring:Jacqueline Fernandez,Manoj Bajpayee,Mohit Raina",
+      "Mrs. Serial Killer 2020 | Maturity Rating: U/A 16+ | 1h 47m | Thrillers",
+    des2:
+    " When a doctor gets jailed for a string of shocking murders, his loyal wife sets out to commit a copycat crime to prove his innocence. Starring:Jacqueline Fernandez,Manoj Bajpayee,Mohit Raina",
     image: "images/mrsSerialkiller.jpg"
   },
+
   {
-    name: "Guns ans Gulaab",
+    name: "Tu Jhoothi Mein Makkar",
     des:
-      "Guns & Gulaabs 2023 | Maturity Rating:U/A 16+ | 1 Season | Comedies In the cartel-run town of Gulaabgunj, an unprecedented opium deal pulls a big-city cop and a lovesick mechanic into its chaotic clutches.Starring:Rajkummar Rao,Dulquer Salmaan,Adarsh Gourav Creators:Raj Nidimoru,Krishna D.K.",
-    image: "images/Guns-and-Gulaabs.jpg"
+      "Tu Jhoothi Mein Makkar 2023 | Maturity Rating:U/A 13+ | 2h 39m | Comedies",
+      des2:
+      "  To earn extra cash, Mickey helps couples break up — but life gets Starring:Ranbir Kapoor,Shraddha Kapoor,Dimple Kapadia",
+    image: "images/tujhoo.jpg"
   },
   {
     name: "Shehzada ",
     des:
-      "Shehzada 2023 | Maturity Rating:U/A 13+ | 2h 22m | Comedies After realizing he was switched at birth by a conniving father, a rakish Bantu's life is upended when he becomes the heir to a billionaire. Starring:Kartik Aaryan,Kriti Sanon,Manisha Koirala",
+      "Shehzada 2023 | Maturity Rating:U/A 13+ | 2h 22m | Comedies ",
+      des2:
+      " After realizing he was switched at birth by a conniving father, a rakish Bantu's life is upended when he becomes the heir to a billionaire. Starring:Kartik Aaryan,Kriti Sanon,Manisha Koirala",
     image: "images/shehz.jpg"
   },
   {
-    name: "Tu Jhoothi Mein Makkar",
-    des:
-      "2023 | Maturity Rating:U/A 13+ | 2h 39m | Comedies To earn extra cash, Mickey helps couples break up — but life gets Starring:Ranbir Kapoor,Shraddha Kapoor,Dimple Kapadia",
-    image: "images/tujhoo.jpg"
-  },
-  {
     name: "What If",
-    des: "What If 2023 | Maturity Rating:U/A 16+ | 1h 52m | Romance When a pair of newlywed musicians get trapped in a storm on their island honeymoon, they must face difficult truths that could tear their marriage apart. Starring:Alessandra de Rossi,JM de Guzman,Chard Ocampo"
+    des: "What If 2023 | Maturity Rating:U/A 16+ | 1h 52m | Romance",
+    des2:
+    "  When a pair of newlywed musicians get trapped in a storm on their island honeymoon, they must face difficult truths that could tear their marriage apart. Starring:Alessandra de Rossi,JM de Guzman,Chard Ocampo"
 ,    image: "images/whatif.jpg"
   }
 ];
@@ -44,12 +55,15 @@ const createSlide = () => {
   let content = document.createElement("div");
   let h1 = document.createElement("h1");
   let p = document.createElement("p");
+  let div = document.createElement("div");
 
   imgElement.appendChild(document.createTextNode(""));
   h1.appendChild(document.createTextNode(movies[slideIndex].name));
   p.appendChild(document.createTextNode(movies[slideIndex].des));
+  div.appendChild(document.createTextNode(movies[slideIndex].des2));
   content.appendChild(h1);
   content.appendChild(p);
+  content.appendChild(div);
   slide.appendChild(content);
   slide.appendChild(imgElement);
   carousel.appendChild(slide);
@@ -62,6 +76,7 @@ const createSlide = () => {
   content.className = "slide-content";
   h1.className = "movie-title";
   p.className = "movie-des";
+  div.className = "movie-des";
 
   sliders.push(slide);
   // sliders.push(content);
