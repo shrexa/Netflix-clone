@@ -8,26 +8,26 @@ let movies = [
     {
       name: "Guns ans Gulaab",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
+        "Guns & Gulaabs 2023 | Maturity Rating:U/A 16+ | 1 Season | Comedies In the cartel-run town of Gulaabgunj, an unprecedented opium deal pulls a big-city cop and a lovesick mechanic into its chaotic clutches.Starring:Rajkummar Rao,Dulquer Salmaan,Adarsh Gourav Creators:Raj Nidimoru,Krishna D.K.",
       image: "images/Guns-and-Gulaabs.jpg"
     },
     {
       name: "Shehzada ",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/shehzada.jpg"
+        "Shehzada 2023 | Maturity Rating:U/A 13+ | 2h 22m | Comedies After realizing he was switched at birth by a conniving father, a rakish Bantu's life is upended when he becomes the heir to a billionaire. Starring:Kartik Aaryan,Kriti Sanon,Manisha Koirala",
+      image: "images/shehz.jpg"
     },
     {
       name: "Tu Jhoothi Mein Makkar",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/tujhooti.jpg"
+        "2023 | Maturity Rating:U/A 13+ | 2h 39m | ""Comedies To earn extra cash, Mickey helps couples break up — but life gets Starring:Ranbir Kapoor,Shraddha Kapoor,Dimple Kapadia",
+        image: "images/tujhoo.jpg"
     },
     {
-      name: "luca",
+      name: "Mrs. Serial Killer",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim beatae impedit sunt voluptatem veniam!",
-      image: "images/theguilty.jpg"
+        "Mrs. Serial Killer 2020 | Maturity Rating: U/A 16+ | 1h 47m | Thrillers When a doctor gets jailed for a string of shocking murders, his loyal wife sets out to commit a copycat crime to prove his innocence. Starring:Jacqueline Fernandez,Manoj Bajpayee,Mohit Raina",
+      image: "images/whatif.jpg"
     }
   ];
   const carousel = document.querySelector(".carousel");
