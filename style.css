@@ -312,8 +312,9 @@
   } */
   .pre-btn {
     left: 0;
-    background: linear-gradient(to right, #0c111b 0%, #1b0c1b00);
+    background: linear-gradient(to right, #000000 0%, #1b0c1b00);
   }
+  
   
   .nxt-btn {
     right: 0;
