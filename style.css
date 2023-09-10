@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background:  #120e1d;
+    /* background:  #1f1e1e; */
   }
   body {
     width: 100%;
-    background: #120e1d;
+    background: #1f1e1e;
     position: relative;
     font-family: roboto, sans-serif;
   }
@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     padding: 0 4%;
-    background: #120e1d;
+    background: #020103;
     z-index: 0;
     display: flex;
     align-items: center;
@@ -56,10 +56,10 @@
   }
   .search-box:focus {
     width: 400px;
-    border-color: #1f80e0;
+    border-color: #ea0707;
   }
   .sub-btn {
-    background: #1f80e0;
+    background: #e20909;
     height: 30px;
     padding: 0 20px;
     color: #ffff;
@@ -98,7 +98,7 @@
     flex: 0 0 auto;
     margin-right: 30px;
     position: relative;
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(0, 0, 0, 0.5); */
     border-radius: 5px;
     width: 100%;
     height: 100%;
@@ -119,7 +119,7 @@
     width: 50%;
     height: 100%;
     z-index: 2;
-    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    background: linear-gradient(to right, #121214 80%, #0c111b00);
     color: #fff;
   }
   .movie-title {
@@ -133,6 +133,7 @@
     line-height: 30px;
     padding-left: 50px;
     margin-top: 30px;
+    /* margin-bottom: 40px; */
     opacity: 0.8;
     background: none;
   }
@@ -233,17 +234,17 @@
     top: 0;
     left: 0;
     z-index: 2;
-    background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+    background: linear-gradient(to bottom, rgba(153, 169, 196, 0), #192133 , 90%);
     padding: 10px;
     transition: 0.5s;
   }
   
   .name {
     color: #fff;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 800;
     text-transform: capitalize;
-    margin-top: 60%;
+    margin-top: 28%;
     /* margin-bottom: 60%; */
     padding-bottom:10px ;
   }
@@ -273,6 +274,7 @@
   
   .watchlist-btn::before {
     content: "";
+    /* margin-bottom: 5px; */
     position: absolute;
     top: 0;
     left: -5px;
@@ -284,7 +286,7 @@
   }
   
   .watchlist-btn:hover {
-    background: #088177;
+    background: #ce0808;
   }
   
   .pre-btn,
@@ -310,7 +312,7 @@
   } */
   .pre-btn {
     left: 0;
-    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+    background: linear-gradient(to right, #0c111b 0%, #1b0c1b00);
   }
   
   .nxt-btn {
