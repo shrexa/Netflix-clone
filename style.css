@@ -240,21 +240,24 @@
   }
   
   .name {
-    color: #fff;
-    font-size: 25px;
-    font-weight: 800;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
     text-transform: capitalize;
     margin-top: 28%;
     /* margin-bottom: 60%; */
-    padding-bottom:10px ;
+    /* padding-bottom:6px ; */
+    text-shadow: 2px 2px 6px hsl(0, 56%, 4%);
   }
   
   .des {
     color: #fff;
     opacity: 0.8;
-    margin: 5px 0;
-    font-weight: 500;
+    margin: 2px 0;
+    font-weight: 800;
     font-size: 12px;
+    text-shadow: 2px 2px 6px hsl(0, 56%, 4%);
+
   }
   
   .watchlist-btn {
